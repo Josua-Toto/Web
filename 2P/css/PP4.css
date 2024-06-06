@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: solid rgb(0, 0, 0);
+    position: relative;
+    max-width: 10000px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+.container header{
+    position: relavive;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 7px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #21189e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container form{
+    position: relative;
+    margin-top: 10px; 
+    min-height: 200px;
+    background-color: #e4e4e4c5;
+    border-radius: 5px;
+}
+.container form .details{
+    margin-top: 30px;
+}
+.container form .title{
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #000000;
+}
+
+.container form .title{
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+
+}
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field{
+    display: flex;
+    width: clac(0% / 3 - 15px);
+
+    flex-direction: column;
+    margin: 4px 0;
+
+
+}
+.input-field label{
+    font-size: 17px;
+    font-weight: 500;
+    color:#5b82d4;
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    border: 1px solid #000000;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+
+}
+.input-field input:is(:focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field input[type="date"]{
+    color: #707070;
+}
+.input-field input[type="date"]:valid{
+    color: #333;
+}
+
+.columna2{
+    display: flex;
+}
+
+.columna2 input{
+    margin: 11px;
+    width: 400px;
+}
+
+.columna5 input{
+    width: 800px;
+}
+
+.input-field select {
+    border: 1px solid #979797;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    color: #000000;
+    margin-bottom: 10px;
+}

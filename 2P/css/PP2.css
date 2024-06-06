@@ -1,0 +1,79 @@
+.pagina {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.barraizquierda {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+.barraizquierda button{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.barraizquierda svg{
+    width: 30px;
+    height: 40px;
+    padding-right: 5px;
+    margin: auto;
+}
+
+.lodemas{
+    background-color: rgb(182, 182, 182);
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    float: left;
+}
+
+.arribacontenido button{
+    margin-left: 80%;
+    margin-top: -20px;
+    height: 40px;
+
+}
+
+.lodemas .abajo{
+    background-color: rgb(219, 217, 223);
+    color:black;
+    position: fixed;
+    display: flex;
+    height: 590px;
+    width: 500px;
+}
+
+.abajo select{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+
+.abajocontenido{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}

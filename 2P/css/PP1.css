@@ -1,0 +1,65 @@
+.pagina{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.cabecera{
+    background-color: #00a5db;
+    color: rgb(231, 229, 233);
+    overflow: hidden;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 6, 7);
+    margin-top: 70px;
+    height: 466px;
+    width: 1300px;
+    margin-left: 35px;
+}
+
+.fondoContenido{
+    background-color: #00a5db;
+}
+
+.contenido .izquierda{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+.contenido .centro{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.contenido .derecha {
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
